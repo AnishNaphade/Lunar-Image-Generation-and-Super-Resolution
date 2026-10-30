@@ -1,0 +1,13 @@
+remove tensorboard logs - cmd
+rmdir /s /q logs
+
+activate tensorboard
+tensorboard --logdir=logs
+
+streamlit command
+python -m streamlit run mainGAN.py
+
+activate environment
+streamlit_env\Scripts\activate
+
+streamlit run mainGAN.py

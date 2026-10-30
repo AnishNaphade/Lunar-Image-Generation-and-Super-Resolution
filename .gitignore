@@ -1,0 +1,35 @@
+# Papers folder (excluded as requested)
+EDI-paper/
+
+# Virtual Environments and Python caches
+**/streamlit_env/
+**/venv/
+**/env/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Heavy Raw Datasets (>6 GB)
+**/celeb_dataset/
+**/moon_dataset/
+**/msl-images/
+**/dataset/MNIST/
+
+# Weights and Checkpoints exceeding GitHub limit (>100MB)
+*.pth
+*.pt
+*.onnx
+
+# Video recordings / raw logs
+*.mp4
+*.avi
+*.mkv
+**/tensorboard_logs/
+**/runs/
+
+# System / OS files
+.DS_Store
+Thumbs.db
+desktop.ini
